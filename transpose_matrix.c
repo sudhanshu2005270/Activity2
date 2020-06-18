@@ -5,7 +5,7 @@ int main()
     printf("Enter the order of the matrix: ");
     scanf("%d%d",&m,&n);
     {
-        int arr[m][n],arrt[n][m],sum=0;
+        int arr[m][n],arrt[n][m];
         int i,j;
         printf("Enter the elements of the matrix: \n");
         for(i=0;i<m;i++)
